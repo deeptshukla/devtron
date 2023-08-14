@@ -5,6 +5,7 @@ metadata:
     app: devtron
     release: devtron
   name: devtron-ingress
+  namespace: devtroncd
 spec:
   ingressClassName: nginx
   rules:
